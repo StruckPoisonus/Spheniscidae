@@ -4,41 +4,81 @@
 
 <head>
 
-  <meta charset="utf-8">
+  <title>My Poetry Website</title>
 
-  <title>Poetry Blog</title>
-
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
 <body>
 
-  <h1>Welcome to the Poetry Blog</h1>
-
-  <p>Here, you can share your poems with the world. Simply fill out the form below and click "Submit" to post your poem.</p>
+  <h1>Welcome to My Poetry Website</h1>
 
   <form id="poem-form">
 
-    <label for="name">Name:</label><br>
-
-    <input type="text" id="name" required><br>
-
     <label for="title">Title:</label><br>
 
-    <input type="text" id="title" required><br>
+    <input type="text" id="title" name="title"><br>
+
+    <label for="author">Author:</label><br>
+
+    <input type="text" id="author" name="author"><br>
 
     <label for="poem">Poem:</label><br>
 
-    <textarea id="poem" required></textarea><br>
+    <textarea id="poem" name="poem"></textarea><br>
 
     <input type="submit" value="Submit">
 
-  </form>
+  </form> 
+
+  <div id="poem-display"></div>
 
   <script src="script.js"></script>
 
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
