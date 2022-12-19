@@ -1,0 +1,104 @@
+body {
+
+  font-family: Arial, sans-serif;
+
+  text-align: center;
+
+}
+
+form {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+}
+
+label {
+
+  margin: 10px 0;
+
+}
+
+input[type="text"], textarea {
+
+  width: 50%;
+
+  padding: 12px 20px;
+
+  margin: 8px 0;
+
+  box-sizing: border-box;
+
+  border: 1px solid #ccc;
+
+  border-radius: 4px;
+
+}
+
+input[type="submit"] {
+
+  width: 20%;
+
+  background-color: #4CAF50;
+
+  color: white;
+
+  padding: 14px 20px;
+
+  margin: 8px 0;
+
+  border: none;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+
+  background-color: #45a049;
+
+}
+
+#poem-display {
+
+  margin-top: 20px;
+
+}
+
+.poem {
+
+  border: 1px solid #ccc;
+
+  border-radius: 4px;
+
+  margin: 20px 0;
+
+  padding: 20px;
+
+  text-align: left;
+
+}
+
+.poem h3 {
+
+  margin: 0;
+
+}
+
+.poem p {
+
+  margin: 10px 0;
+
+}
+
+.poem .author {
+
+  font-style: italic;
+
+}
+
